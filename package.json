@@ -1,0 +1,16 @@
+{
+  "name": "odin-testing-practice",
+  "version": "1.0.0",
+  "description": "Odin Project to practice Unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelvin Liang",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "readme-md-generator": "^1.0.0"
+  }
+}
