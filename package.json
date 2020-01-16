@@ -4,7 +4,15 @@
   "description": "Odin Project to practice Unit test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "homepage": "https://github.com/kelvin8773/odin-testing-practice#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kelvin8773/odin-testing-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kelvin8773/odin-testing-practice/issue"
   },
   "author": "Kelvin Liang",
   "license": "MIT",
