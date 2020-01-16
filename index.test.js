@@ -15,5 +15,3 @@ test('reverse String', () => {
   expect(reverse('Howdy')).toBe('ydwoH');
   expect(reverse('Greetings from Earth')).toBe('htraE morf sgniteerG');
 });
-
-

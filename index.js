@@ -1,13 +1,8 @@
-const capitalize = string => {
-  return string.replace(/(?:^|\s)\S/g, (a) => a.toUpperCase())
-};
+const capitalize = (string) => string.replace(/(?:^|\s)\S/g, (a) => a.toUpperCase());
 
-const reverse = string => {
-  return string.split('').reverse().join('');
-};
+const reverse = (string) => string.split('').reverse().join('');
 
 export {
   capitalize,
-  reverse
-}
-
+  reverse,
+};
