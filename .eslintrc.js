@@ -1,8 +1,9 @@
-{
+module.exports = {
     "env": {
         "es6": true,
         "jest/globals": true,
     },
+    "plugins": ["jest"],
     "extends": "airbnb-base",
     "globals": {
         "Atomics": "readonly",
@@ -20,4 +21,4 @@
         "import/no-unresolved": "off",
         "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
     }
-}
+};

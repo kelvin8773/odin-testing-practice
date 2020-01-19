@@ -9,9 +9,22 @@
   </a>
 </p>
 
-> Odin Project to practice Unit test
+> This is an [Odin assignment project](https://www.theodinproject.com/courses/javascript/lessons/testing-practice) to practices Unit Test by using [**Jest**](https://jestjs.io/) testing Framework.
 
-### 🏠 [Homepage](https://github.com/kelvin8773/odin-testing-practice#readme)
+## Introduction
+
+### Tech Stacks
+* Jest
+* Eslint
+* Es6(import/export modules);
+* Babel7
+
+### Module to Test
+* Capitalize
+* Reverse String
+* Calculator
+* Caesar Cipher
+* Array Analysis
 
 ## Install
 
@@ -23,6 +36,20 @@ npm install
 
 ```sh
 npm run test
+```
+or (continue test)
+
+```sh
+npm run watch
+```
+
+## syntax check
+```sh
+npx eslint .
+```
+or (to fix the error)
+```sh
+npx eslint . --fix
 ```
 
 ## Author
