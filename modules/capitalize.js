@@ -1,0 +1,1 @@
+export const capitalize = (string) => string.replace(/(?:^|\s)\S/g, (a) => a.toUpperCase())
